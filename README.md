@@ -4,7 +4,7 @@
 
 It is composed a hyperapp middleware and a function for chaining actions.
 
-You can try it [online demo](https://codesandbox.io/s/hyperapp-v2-chain-demo-knqqz?fontsize=14&module=%2Findex.jsx). (Please open browser console window)
+You can try it [online demo](https://codesandbox.io/s/hyperapp-v2-chain-demo-knqqz?fontsize=14&module=%2Findex.jsx).
 
 ## Install
 
