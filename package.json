@@ -1,5 +1,5 @@
 {
-  "name": "hyperapp-v2-chain",
+  "name": "hyperapp-chain",
   "version": "0.1.0",
   "description": "Utility to chain multiple actions for hyperapp V2",
   "main": "src/index.js",
@@ -11,10 +11,10 @@
     "LICENSE"
   ],
   "keywords": [
-      "hyperapp"
-    , "hyperapp#2"
+    "hyperapp",
+    "hyperapp#2"
   ],
-  "repository": "https://github.com/tetradice/hyperapp-v2-chain",
+  "repository": "https://github.com/tetradice/hyperapp-chain",
   "author": "Dice <tetradice@gmail.com>",
   "license": "UNLICENSED",
   "devDependencies": {

@@ -1,6 +1,6 @@
-# hyperapp-v2-chain
+# hyperapp-chain
 
-`hyperapp-v2-chain` is utility for [hyperapp V2](https://github.com/jorgebucaran/hyperapp). It chains multiple actions and dispatches them sequentially.
+`hyperapp-chain` is utility for [hyperapp V2](https://github.com/jorgebucaran/hyperapp). It chains multiple actions and dispatches them sequentially.
 
 It is composed a hyperapp middleware and a function for chaining actions.
 
@@ -10,13 +10,13 @@ You can try it [online demo](https://codesandbox.io/s/hyperapp-v2-chain-demo-knq
 
 ```sh
 # for npm
-% npm install --save hyperapp-v2-chain
+% npm install --save hyperapp-chain
 
 # for Yarn
-% yarn add hyperapp-v2-chain
+% yarn add hyperapp-chain
 ```
 
-If you are using TypeScript, you don't need to install `@types/hyperapp-v2-chain`. This is because a type definition file (`index.d.ts`) is already included.
+If you are using TypeScript, you don't need to install `@types/hyperapp-chain`. This is because a type definition file (`index.d.ts`) is already included.
 
 ## Usage
 
@@ -25,7 +25,7 @@ If you are using TypeScript, you don't need to install `@types/hyperapp-v2-chain
 
 ```jsx
 import { h, app } from "hyperapp";
-import { chainHandler, chain } from "hyperapp-v2-chain";
+import { chainHandler, chain } from "hyperapp-chain";
 
 const Increment = (state, value) => (state + value);
 const Double = (state) => (state * 2);
@@ -48,11 +48,11 @@ app({
 ## Details
 
 - `chain(action1, action2, ...)` can receive one or more actions with payloads. 
-- If you want to use `hyperapp-v2-chain` with other middleware, use `compose` at [@hyperapp/middlewares (by sergey-shpak)](https://github.com/sergey-shpak/hyperapp-middlewares)
+- If you want to use `hyperapp-chain` with other middleware, use `compose` at [@hyperapp/middlewares (by sergey-shpak)](https://github.com/sergey-shpak/hyperapp-middlewares)
 
     ```jsx
     import { h, app } from "hyperapp";
-    import { chainHandler, chain } from "hyperapp-v2-chain";
+    import { chainHandler, chain } from "hyperapp-chain";
     import logger from "hyperapp-v2-basiclogger";
     import { compose } from "@hyperapp/middlewares";
 
@@ -63,7 +63,7 @@ app({
     ```
 
 ## Contact
-@tetradice ([GitHub Issues](https://github.com/tetradice/hyperapp-v2-chain/issues) or [Twitter](https://twitter.com/tetradice))
+@tetradice ([GitHub Issues](https://github.com/tetradice/hyperapp-chain/issues) or [Twitter](https://twitter.com/tetradice))
 
 ## License
 Unlicensed
